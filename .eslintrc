@@ -1,0 +1,22 @@
+{
+  "root": true,
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "parserOptions": {
+    "parser": "babel-eslint",
+    "sourceType": "module"
+  },
+  "extends": [
+    "@avalanche/eslint-config",
+    "plugin:vue/recommended"
+  ],
+  "rules": {
+    "vue/require-default-prop": 0,
+    "linebreak-style": 0
+    // "no-console": process.env.NODE_ENV === "production" ? "error" : "off",
+    // "no-debugger": process.env.NODE_ENV === "production" ? "error" : "off",
+    // "linebreak-style": ["error", process.env.NODE_ENV !== "production" ? "unix" : "windows"]
+  }
+}
